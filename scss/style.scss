@@ -1,0 +1,244 @@
+@import './porfolio.scss';
+@import './variables';
+@import './mixins';
+@import './contact.scss';
+@import './faq.scss';
+@import './about.scss';
+@import './pricelist.scss';
+@import './nastya.scss';
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+
+body{
+    background: #fcf6f2;
+}
+.main-logo {
+    width: 100%;
+    height: 64px;
+    margin-top: 24px;
+    
+}
+
+.section2{
+    
+    text-align: center;
+    margin: 100px 0;
+    h3{
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 75px;
+        color: #93706C;
+        margin-bottom: 64px;
+        text-align: left;
+    }
+    p{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        color: #93706C;
+        text-align:left ;
+        white-space:pre-line;
+        margin-bottom: 80px;
+    }
+    a{
+        border-radius: 5px;
+        background-color: #E18A7A;
+        padding: 16px 40px;
+        text-decoration: none;
+        color: $light;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+
+
+color: #FCF6F2;
+        @media (max-width: 768px) {
+            align-items: flex-start;
+        }
+    }
+    img {
+        width: 100%;
+    }
+
+    .content-section {
+        align-items: flex-start;
+
+        @media (max-width: 768px) {
+            align-items: center;
+            margin-bottom: 40px;
+
+        }
+        
+    }
+
+
+}
+.section3{
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+    h3{ font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+          line-height: 54px;
+        color: #93706C;
+        border: #93706c17 2px solid;
+        border-left: none;
+        border-right: none;
+    }
+    }
+
+
+.main-menu {
+    margin-top: 24px;
+    a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #93706C;
+    padding: 0;
+    margin: 0 22px;
+    &:hover{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #E18A7A;
+
+    }
+    }
+
+    .write-btn {
+        margin-left: 10%;
+        @media screen and (max-width: 1200px) {
+            margin-left: 0;
+
+        }
+        &.btn-secondary {
+            background-color: #E18A7A;
+            border-radius: 5px;
+            a {
+                color: white;
+                padding: 16px 40px;
+            }
+
+        }
+    }
+    .language-btn {
+        margin-right: 10%;
+        @media screen and (max-width: 1200px) {
+            margin-right: 0;
+
+        }
+        .dropdown-toggle {
+            padding: 0;
+            background: transparent;
+            border: none;
+            color:$main-color;
+            font-weight: 600;
+        }
+    }
+}
+.mobile-menu {
+    .offcanvas-start {
+        width: 100%;
+        .offcanvas-body {
+            text-align: center;
+        }
+    }
+}
+
+.main-img {
+    margin-top: 40px;
+    width: 100%;
+    height: 592px;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 80px;
+    h2 {
+        font-family: Raleway;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 75px;
+        text-transform: uppercase;
+        color: #93706C;
+    }
+
+}
+.album {
+    .img {
+        margin: 10px 0;
+        padding: 10px;
+        height: 478px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.section4{
+height: 200px;
+
+text-align: center;
+margin-top: 89px;
+a{
+    @include button;
+    color: white;
+ padding: 16px 40px;
+ width: 144px;
+ height: 48px;
+ text-decoration: none;
+}
+}
+
+footer{
+    width: 100%;
+    
+    background: #93706C;
+    padding-top: 55px;
+
+    .nav-link{
+    
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FCF6F2;
+        &:hover{
+            color:  #FCF6F2;
+            font-weight: 600;
+            text-decoration: underline
+            ;
+        }}
+        .nav-image-foter{
+            a{
+                margin-right: 29px;
+            }
+        }
+        .footer-logo{
+            a{
+                font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.32em;
+        color: #FCF6F2;
+        white-space: pre-line;
+        text-decoration: none;
+            }
+        }
+        
+}
+

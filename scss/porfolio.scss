@@ -1,0 +1,35 @@
+@import './variables';
+
+
+.section-portfolio {
+    .nav-item {
+        .nav-link {
+            color: $pastel;
+            &.active {
+                color: black;
+            }
+        }
+    }
+}
+
+.poprsafas{
+    margin-top: 40px;
+}
+.color-name{
+    button{
+        font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #93706C;
+    }
+    &:hover{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #E18A7A;
+    }
+}

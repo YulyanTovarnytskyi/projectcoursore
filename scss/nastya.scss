@@ -1,0 +1,18 @@
+.foto-porfolio{
+    text-align: center;
+}
+.name-portfolio-nastya{
+    margin-top:35px ;
+    margin-bottom:93px ;
+    h4{
+        font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 75px;
+color: #93706C;
+    &::before {
+    content: "🡠";
+  }
+
+    }
+}

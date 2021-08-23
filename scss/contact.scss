@@ -1,0 +1,74 @@
+
+.contact{
+
+    * {
+        font-family: 'Playfair Display', serif;
+    }
+
+    height: 1180px;
+    width: 100%;
+    margin-top: 50px;
+    .left-img {
+        width: 100%;
+    }
+}
+
+.contact-info{
+    h4{
+        font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 75px;
+color: #ceb5b2;
+margin-bottom: 80px;
+    }
+   
+    .contact-text-right{
+        display: flex;
+        align-items: center;    
+        margin-bottom: 50px;
+        img {
+            margin-right: 20px;
+        }
+        .contact-text-info{
+            h6{
+                font-weight: 800;
+                font-size: 18px;
+                line-height: 160%;
+                color: #93706C;
+
+            }
+            a{
+                font-weight: 800;
+                font-family: 'Raleway', sans-serif;
+font-size: 18px;
+line-height: 160%;
+text-decoration: none;
+color: #93706C;
+
+            }
+        }
+    }
+}
+.form-call{
+    height: 578px;
+    width: 100%;
+}
+.call-me{
+    font-weight: normal;
+font-size: 32px;
+line-height: 43px;
+color: #93706C;
+}
+.btn-send{
+    margin-top: 40px;
+    
+    a{  background: #E18A7A;
+        border-radius: 2px;
+        text-decoration: none;
+        color:antiquewhite;
+        padding: 16px 35px;
+        margin-top: 20px;}
+ 
+}
